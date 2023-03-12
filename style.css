@@ -364,14 +364,12 @@ nav .menu
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1080px) {
     #header
     {
         background-image: url(/Resources/mobilebg.jpg);
         background-size: cover;
-        background-repeat: no-repeat;
         background-position: center;
-        background-attachment: fixed;
     }
     .header-text
     {
