@@ -333,14 +333,11 @@ form .btn2
     margin-top: 10px;
 }
 
-nav .close
-{
-    display: none;
-}
 nav .menu
 {
     display: none;
 }
+
 
 .website-counter {
     display: flex;
@@ -357,6 +354,10 @@ nav .menu
     font-weight: 700;
     font-size: 25px;
     margin-top: 10px;
+}
+nav .fa
+{
+    display: none;
 }
 
 /*-----------------------------------------------css for small screens------------------------------------------------*/
@@ -380,7 +381,8 @@ nav .menu
     {
         font-size: 30px;
     }
-    nav .close
+
+    nav .fa
     {
         display: block;
         font-size: 25px;
@@ -388,15 +390,15 @@ nav .menu
     nav .menu
     {
         display: block;
-        font-size: 25px;
+        font-size: 20px;
     }
     nav ul
     {
-        background: #fbb948;
+        background: linear-gradient(rgba(0,0,0,0.6),#FFD700);
         position: fixed;
         top: 0;
-        right: -200px;
-        width: 200px;
+        right: -250px;
+        width: 250px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -407,7 +409,8 @@ nav .menu
         display: block;
         margin: 25px;
     }
-    nav ul .close
+
+    nav ul .fa
     {
         position: absolute;
         top: 25px;
@@ -416,7 +419,7 @@ nav .menu
     }
     .sub-title
     {
-        font-size: 40px;
+        font-size: 30px;
     }
     .about-col-1, .about-col-2
     {
@@ -428,12 +431,12 @@ nav .menu
     }
     .about-col-2
     {
-        font-size: 14px;
+        font-size: 5px;
     }
     .tab-links
     {
-        font-size: 16px;
-        margin-right: 20px;
+        font-size: 2px;
+        margin-right: 10px;
     }
     .contact-left, .contact-right
     {
